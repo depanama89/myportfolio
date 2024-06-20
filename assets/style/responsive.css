@@ -1,0 +1,40 @@
+@media screen and (max-width: 990px) {
+  .hero_content {
+    flex-direction: column;
+  }
+  .desc_profil {
+    text-align: center;
+  }
+  .desc_hero {
+    width: 100%;
+    text-align: justify;
+  }
+  .right {
+    text-align: center;
+  }
+
+  .projet {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 436px) {
+  /* menu principal */
+  .menu_list {
+    display: none;
+  }
+  .mobile_menu {
+    display: flex;
+    font-size: 23px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .hero_title {
+    font-size: 25px;
+  }
+  .sub_title {
+    font-size: 13px;
+  }
+  .desc_hero {
+    font-size: 14px;
+  }
+}
